@@ -8,8 +8,7 @@ Throughout this internship, I will be working on a variety of front-end and web 
 ## 🔧 Tech Stack
 - HTML5
 - CSS3
-- JavaScript (ES6+)
-- [Include any frameworks/libraries you may use like Bootstrap, jQuery, etc.]
+- JavaScript 
 
 ## 📁 Structure
 Each task or assignment is organized in its own folder, with code, assets, and a brief explanation or README wherever needed.
