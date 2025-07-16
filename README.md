@@ -19,7 +19,7 @@ To strengthen my front-end development skills, gain hands-on project experience,
 
 ## 📌 About the Internship
 - **Organization:** Vault of Codes
-- **Duration:** [Mention your duration, e.g., July 2025 - August 2025]
+- **Duration:** July 2025 - August 2025
 - **Role:** Web Development Intern
 
 ---
