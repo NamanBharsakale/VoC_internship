@@ -1,0 +1,216 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial,sans-serif;
+    position: relative;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/f1/eb/a0/f1eba09749f72888d17f62c3ae0c7e7e.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+  background: transparent;
+}
+
+.hero-content {
+  max-width: 800px;
+  color: white;
+  animation: fadeInHero 1.5s ease-out forwards;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.hero .subtitle {
+  font-size: 20px;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.hero .intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+.hero .scroll-down {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 24px;
+  text-decoration: none;
+  color: #00ffff;
+  transition: transform 0.3s;
+}
+.scroll-down:hover {
+  transform: translateY(5px);
+}
+
+.highlight {
+  color: #00ffff;
+}
+
+@keyframes fadeInHero {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 16%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 16px 32px;
+    z-index: 1000;
+    backdrop-filter: blur(8px);
+}
+
+.nav-left h2 {
+    font-size: 24px;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #00FFFF;
+}
+.nav-right a {
+    margin-left: 24px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-right a:hover {
+    color: #00FFFF;
+}
+    
+
+
+section {
+  padding: 100px 20px;
+  min-height: 100vh;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #00FFFF; 
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 20px;
+  color: #f5f5f5;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.card.fade-in {
+  animation: fadeInUp 3s ease forwards;
+}
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.card ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+.card li {
+  margin-bottom: 8px;
+}
+
+
+
+.hero .subtitle {
+  font-size: 20px;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+.hero .intro {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+ .scroll-up {
+  margin-top: 30px;
+  display: inline-block;
+  font-size: 24px;
+  text-decoration: none;
+  text-align: center;
+  color: #00ffff;
+  transition: transform 0.3s;
+}
+.scroll-up:hover {
+  transform: translateY(5px);
+}
+
+
+
+
+footer{
+    color: rgb(177, 170, 170);
+    background-color: rgb(15, 96, 107);
+    opacity: 70%;
+    padding: 15px;
+}
+
+.cnt{
+    font-size: 30px;
+    color: #00FFFF;
+    margin: 30px;
+}
+.section_footer{
+  margin-left: 30%;
+}

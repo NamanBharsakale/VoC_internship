@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: Arial,sans-serif;
+    position: relative;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/originals/f1/eb/a0/f1eba09749f72888d17f62c3ae0c7e7e.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #00FFFF; 
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  max-width: 600px;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+td {
+  padding: 10px;
+  vertical-align: top;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+  margin-bottom: 15px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: #ccc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: #00ffff;
+}
+
+.button-full {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: #00ffff;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-full:hover {
+  background-color: #00cccc;
+  transform: scale(1.02);
+}
+
+td[colspan="2"] {
+  text-align: center;
+}
+
+.buttons-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
