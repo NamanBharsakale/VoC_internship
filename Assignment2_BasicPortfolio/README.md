@@ -1,15 +1,72 @@
-# 🧑‍💼 Assignment 1 – Personal Portfolio
+# 💼 Assignment 2: Personal Portfolio Website
 
-This project is part of the Web Development Internship at Vault of Codes.
+## 📌 Objective
 
-## 📌 Features
-- About Me, Skills, Projects, and Contact sections
-- Clean structure and simple design
+The goal of this assignment is to design and develop a responsive and professional **portfolio website** to showcase personal projects, skills, and contact information using **HTML, CSS**, and optionally **JavaScript**.
+
+---
+
+## 🔧 Technologies Used
+
+- HTML5
+- CSS3 (including Flexbox & Grid)
 
 
-## 📸 Screenshots
-See the `screenshots/` folder for output previews.
+---
 
-## 📁 Files
-- `index.html` – Main portfolio page
-- `assets/images/` – Images used
+## 🧩 Features Implemented
+
+### ✅ Design & Structure Improvements
+- Clean layout using external CSS
+- Semantic HTML tags (`<section>`, `<header>`, `<footer>`)
+- Modern layout using **Flexbox** and **CSS Grid**
+- Clear visual hierarchy and spacing
+
+### ✅ Functional Enhancements
+- Sticky/fixed navigation bar with internal anchor links
+- Responsive design using CSS media queries
+- Project cards section with modern card-based layout
+
+### ✅ Contact Form
+- Includes fields for **Name**, **Email**, **Gender**, and **Message**
+- Properly labeled and structured
+- Submit button sends input details 
+
+### ✅ Footer
+- Contains links to GitHub, LinkedIn, and email
+- Displays © copyright
+
+---
+
+## 🚀 How to Run
+
+1. Clone or download the repository.
+2. Open `index.html` in your browser.
+3. Try filling out the contact form and using the buttons.
+4. The site is fully responsive — test it on different screen sizes.
+
+---
+
+## 📸 Preview
+
+![Portfolio Screenshot](assets/portfolio-preview.png)  
+*(Optional: Include a screenshot here)*
+
+---
+
+## 📫 Contact
+
+Created by **Naman Bharsakale**  
+
+
+## 📁 Folder Structure
+
+```plaintext
+Assignment2_Portfolio/
+│
+├── index.html
+├── contact.css
+├── assets/
+│   ├── nb.jpeg
+│   └── portfolio-preview.png
+└── README.md
