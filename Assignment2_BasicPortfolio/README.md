@@ -43,14 +43,7 @@ The goal of this assignment is to design and develop a responsive and profession
 1. Clone or download the repository.
 2. Open `index.html` in your browser.
 3. Try filling out the contact form and using the buttons.
-4. The site is fully responsive — test it on different screen sizes.
-
----
-
-## 📸 Preview
-
-![Portfolio Screenshot](assets/portfolio-preview.png)  
-*(Optional: Include a screenshot here)*
+4. The site is fully responsive — test it on different screen size.
 
 ---
 
