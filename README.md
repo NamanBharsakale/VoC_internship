@@ -6,8 +6,8 @@ This repository contains all the tasks, projects, and assignments completed as p
 Throughout this internship, I will be working on a variety of front-end and web development tasks using **HTML**, **CSS**, **JavaScript**, and other related technologies. The goal is to build responsive, interactive, and visually appealing web pages while improving my practical development skills.
 
 ## 🔧 Tech Stack
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript 
 
 ## 📁 Structure
