@@ -36,21 +36,6 @@ Coming Soon (You can deploy it on GitHub Pages, Netlify, or Vercel)
 - **Vanilla JavaScript**
 - **WeatherAPI.com** for weather data
 
----
-
-## 📁 Project Structure
-
-weather-app/
-├── index.html
-├── style.css
-├── script.js
-├── images/
-│ ├── sunny.gif
-│ ├── rain.gif
-│ ├── thunderstorm.gif
-│ └── snow.gif
-└── README.md
-
 
 ## 🧠 How It Works
 
