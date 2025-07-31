@@ -1,12 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease-in-out;
+  background-image: "images/default.gif";
+  min-height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
-  color: #fff;
 }
 
 .weather-container {
@@ -15,6 +17,7 @@ body {
   border-radius: 10px;
   text-align: center;
 }
+
 
 input {
   padding: 10px;
