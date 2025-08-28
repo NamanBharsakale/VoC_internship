@@ -17,8 +17,8 @@ Each task or assignment is organized in its own folder, with code, assets, and a
 Here are the projects completed during the internship:
 
 -  [Portfolio](https://portfolio-v1-git-main-naman-bharsakales-projects.vercel.app/)
--  [Movie Recommendation Application]([https://your-link-here.com](https://movie-recommendation-app-o34y.vercel.app/))  
-- [Expese Tracker]([https://your-link-here.com](https://nb-expense-tracker.netlify.app/))  
+-  [Movie Recommendation Application](https://your-link-here.com](https://movie-recommendation-app-o34y.vercel.app/))  
+- [Expese Tracker](https://your-link-here.com](https://nb-expense-tracker.netlify.app/))  
 
 
 *(Replace the above links with your actual deployed project links or GitHub Pages links)*
