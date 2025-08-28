@@ -21,7 +21,6 @@ Here are the projects completed during the internship:
 - [Expese Tracker](https://nb-expense-tracker.netlify.app/)
 
 
-*(Replace the above links with your actual deployed project links or GitHub Pages links)*
 
 ## 🎯 Objective
 To strengthen my front-end development skills, gain hands-on project experience, and build a strong foundation for future web development opportunities.
